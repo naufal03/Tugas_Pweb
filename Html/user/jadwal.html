@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadwal</title>
+    <link rel="stylesheet" href="/Css/user/jadwal.css" />
+    <link rel="stylesheet" href="/Css/navbar.css">
+    <link rel="icon" type="image/webp" href="/assets/image/logo gundar.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar-->
+    <div class="header" id="header">
+      <img
+        src="/assets/image/logo gundar.png"
+        alt="logo gunadarma"
+        id="logo-gunadarma-header"
+      />
+      <div class="menu-header">
+        <a class="menu-header" id="menu-header-dashboard" href="">Dashboard</a>
+        <a class="menu-header" id="menu-header-beranda" href="home.html">Beranda</a>
+        <div class="menu-header" id="menu-header-profil">
+          <div id="tombol-profil">Profil</div>
+          <div class="tipe-profil">
+            <a href="">Profil mahasiswa</a>
+            <a href="">Profil dosen</a>
+          </div>
+        </div>
+        <a class="menu-header" id="menu-header-jadwal" href="jadwal.html">Jadwal</a>
+        <a class="menu-header" id="menu-header-materi" href="materi.html">Materi</a>
+        <a class="menu-header" id="tombol-login-header" href=""
+          >Login as Admin</a
+        >
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+      <h1 class="teks-banner">CHECK WHAT'S NEXT</h1>
+      <h4 class="teks-banner">To help you see the schedule more easily</h4>
+      <div class="jadwal-banner-container">
+        <div class="jadwal-banner">Jadwal Kuliah</div>
+        <div class="jadwal-banner">Jadwal LabTI</div>
+        <div class="jadwal-banner">Jadwal LEPKOM</div>
+      </div>
+    </div>
+
+    <!-- tabel jaduwal -->
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Hari</th>
+          <th>Mata Kuliah</th>
+          <th>Waktu</th>
+          <th>Ruang</th>
+          <th>Dosen</th>
+          <th>Jenis</th>
+        </tr>
+        <tr class="ganjil">
+          <td rowspan="5">Senin</td>
+          <td>Pemrograman WEB**</td>
+          <td>07.30-09.30</td>
+          <td>E314</td>
+          <td>Bertalya</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Kecerdasan Artifisial**</td>
+          <td>09.30-11.30</td>
+          <td>E314</td>
+          <td>Octaviani Hutapea</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Interaksi Manusia & Komputer*/**</td>
+          <td>11.30-14.30</td>
+          <td>E314</td>
+          <td>Tavipia Rumambi</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Sistem Keamanan Komputer</td>
+          <td>15.30-17.30</td>
+          <td>E211</td>
+          <td>Bintang Eka Putra</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td><b>JAVA FOR INTERMEDIATE</b></td>
+          <td>18.30-21.00</td>
+          <td>F492</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+        <tr class="genap">
+          <td rowspan="2">Selasa</td>
+          <td>Grafik Komputer 1</td>
+          <td>07.30-09.30</td>
+          <td>F832</td>
+          <td>LURING</td>
+          <td>LABTI</td>
+        </tr>
+        <tr class="genap">
+          <td>Pemrograman WEB</td>
+          <td>13.30-15.30</td>
+          <td>H1</td>
+          <td>DARING</td>
+          <td>LABTI</td>
+        </tr>
+        <tr class="ganjil">
+          <td rowspan="4">Rabu</td>
+          <td>Sistem Basis Data 1**</td>
+          <td>07.30-09.30</td>
+          <td>E314</td>
+          <td>Bertalya</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Grafik Komputer 1**</td>
+          <td>09.30-11.30</td>
+          <td>E314</td>
+          <td>Octaviani Hutapea</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td>Jaringan Komputer*/**</td>
+          <td>11.30-14.30</td>
+          <td>E314</td>
+          <td>Tavipia Rumambi</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td><b>LINUX FOR INTERMEDIATE</b></td>
+          <td>18.30-21.00</td>
+          <td>F491</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+        <tr class="genap">
+          <td rowspan="4">Kamis</td>
+          <td>Kecerdasan Artifisial</td>
+          <td>07.30-09.30</td>
+          <td>F832</td>
+          <td>LURING</td>
+          <td>LABTI</td>
+        </tr>
+        <tr class="genap">
+          <td>Perancangan & Analisis Algoritma</td>
+          <td>11.30-13.30</td>
+          <td>H404</td>
+          <td>LURING</td>
+          <td>LABTI</td>
+        </tr>
+        <tr class="genap">
+          <td>Interaksi Manusia & Komputer</td>
+          <td>13.30-15.30</td>
+          <td>E532</td>
+          <td>DARING</td>
+          <td>LABTI</td>
+        </tr>
+        <tr class="genap">
+          <td><b>C# FOR INTERMEDIATE</b></td>
+          <td>15.45-18.15</td>
+          <td>F8435</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+        <tr class="ganjil">
+          <td rowspan="4">Jumat</td>
+          <td>Perancangan & Analisis Algoritma</td>
+          <td>07.30-09.30</td>
+          <td>D664</td>
+          <td>Rama Dian Syah</td>
+          <td>Reguler</td>
+        </tr>
+        <tr class="ganjil">
+          <td><b>GOLANG FOR INTERMEDIATE</b></td>
+          <td>13.30-16.00</td>
+          <td>F4111</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+        <tr class="ganjil">
+          <td><b>CISCO FOR INTERMEDIATE</b></td>
+          <td>13.30-16.00</td>
+          <td>F8426</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+        <tr class="ganjil">
+          <td><b>SQL SERVER FOR INTERMEDIATE</b></td>
+          <td>13.30-16.00</td>
+          <td>F8435</td>
+          <td><b>LURING</b></td>
+          <td><b>LEPKOM</b></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- nb -->
+    <div id="notabene-container">
+      <img
+        class="notabene"
+        id="icon-notabene"
+        src="/assets/svg/wirte 1.svg"
+        alt="icon"
+      />
+      <p class="notabene" id="text-notabene">
+        Mata kuliah yang diberikan satu bintang(*) dimasukkan dalam Ujian Utama,
+        sedangkan mata kuliah dua bintang(**) melakukan praktikum
+      </p>
+    </div>
+
+    <!-- cc -->
+    <p id="copyrights">
+      © 2024 Copyright by 3IA18 Kelompok Pemrograman Website. All rights
+      reserved.
+    </p>
+  </body>
+</html>
